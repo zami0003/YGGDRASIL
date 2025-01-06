@@ -18,5 +18,5 @@ custom-stats:
 
     # The lore must be a list of strings
     lore:
-      - "This is a test line #1"
-      - "This is a test line #2"
+      - "Đây là dòng thử nghiệm #1"
+      - "Đây là dòng thử nghiệm #2"

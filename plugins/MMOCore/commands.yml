@@ -3,66 +3,66 @@ player:
   aliases:
   - p
   - profile
-  description: Displays player stats
+  description: Hiển thị thống kê người chơi
 attributes:
   main: attributes
   aliases:
   - att
   - stats
-  description: Display and manage attributes
+  description: Hiển thị và quản lý thuộc tính
 class:
   main: class
   aliases:
   - c
-  description: Select a new class
+  description: Chọn một lớp mới
 waypoints:
   main: waypoints
   aliases:
   - wp
-  description: Display discovered waypoints
+  description: Hiển thị các điểm đã khám phá
 quests:
   main: quests
   aliases:
   - q
   - journal
-  description: Display available quests
+  description: Hiển thị các nhiệm vụ có sẵn
 skills:
   main: skills
   aliases:
   - s
-  description: Spend skill points to unlock new skills
+  description: Chi tiêu điểm kỹ năng để mở khóa kỹ năng mới
 friends:
   main: friends
   aliases:
   - f
-  description: Show online/offline friends
+  description: Hiển thị bạn bè trực tuyến/offline
 party:
   main: party
   aliases: []
-  description: Invite players in a party to split exp
+  description: Mời người chơi trong một nhóm để chia sẻ exp
 guild:
   main: guild
   aliases: []
-  description: Show players in current guild
+  description: Hiển thị người chơi trong guild hiện tại
 withdraw:
   main: withdraw
   aliases:
   - w
-  description: Withdraw money into coins and notes
+  description: Rút tiền thành tiền xu và ghi chú
 skill-trees:
   main: skilltrees
   aliases:
   - st
   - trees
   - tree
-  description: Open up the skill tree menu
+  description: Mở menu cây kỹ năng
 deposit:
   main: deposit
   aliases:
   - d
-  description: Open the currency deposit menu
+  description: Mở menu gửi tiền tệ
 pvp-mode:
   main: pvpmode
   aliases:
   - pvp
-  description: Toggle on/off PVP mode.
+  description: Bật/tắt chế độ PVP.
