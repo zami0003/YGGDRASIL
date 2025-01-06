@@ -1,47 +1,47 @@
 Sounds:
   Enabled: true
   ProtocolLibSound: false
-  # # More sounds at https://www.spigotmc.org/wiki/cc-sounds-list/
+  # # Thêm âm thanh tại https://www.spigotmc.org/wiki/cc-sounds-list/
   Delay: entity_tnt_primed
   Success: entity_generic_explode
 Titles:
-  Enabled: true # Enable the titles effect feature
-  # # All support %player% %x% %y% and %z% placeholders
-  NoDelay: # Only triggers when there is no delay
-    Title: '&6Teleporting...'
-    Subtitle: '&8please wait'
+  Enabled: true # Bật tính năng hiệu ứng tiêu đề
+  # # Tất cả hỗ trợ các biến %player% %x% %y% và %z%
+  NoDelay: # Chỉ kích hoạt khi không có độ trễ
+    Title: '&6Đang dịch chuyển...'
+    Subtitle: '&8vui lòng chờ'
     SendMessage: true
   Teleport:
-    Title: '&6Teleported!'
+    Title: '&6Đã dịch chuyển!'
     Subtitle: '&fx=%x% y=%y% z=%z%'
-    SendMessage: true # Allow the teleport success message in chat
+    SendMessage: true # Cho phép thông báo thành công dịch chuyển trong trò chuyện
   Delay:
     Title: ''
-    Subtitle: '&fTeleporting in %time% seconds...'
-    SendMessage: true # Allow the teleport delay message in chat
+    Subtitle: '&fĐang dịch chuyển trong %time% giây...'
+    SendMessage: true # Cho phép thông báo độ trễ dịch chuyển trong trò chuyện
   Cancelled:
-    Title: '&eYou moved...'
-    Subtitle: '&cRtp was cancelled!'
-    SendMessage: true # Allow the cancelled message in chat too
+    Title: '&eBạn đã di chuyển...'
+    Subtitle: '&cDịch chuyển đã bị hủy!'
+    SendMessage: true # Cho phép thông báo hủy trong trò chuyện
   Loading:
     Title: ''
-    Subtitle: '&7loading chunks... please wait'
-    SendMessage: true # Allow the loading message in chat
+    Subtitle: '&7đang tải các khối... vui lòng chờ'
+    SendMessage: true # Cho phép thông báo tải trong trò chuyện
   Failed:
     Title: ''
-    Subtitle: '&cFailed! No safe spots located'
+    Subtitle: '&cThất bại! Không tìm thấy vị trí an toàn'
     SendMessage: true
-Particles: # Use `rtp info particles` for a list of particles
+Particles: # Sử dụng `rtp info particles` để có danh sách các hạt
   Enabled: true
-  Type: # list of particle types at https://github.com/ByteZ1337/ParticleLib/blob/master/src/main/java/xyz/xenondevs/particle/ParticleEffect.java
+  Type: # danh sách các loại hạt tại https://github.com/ByteZ1337/ParticleLib/blob/master/src/main/java/xyz/xenondevs/particle/ParticleEffect.java
     - EXPLOSION_NORMAL
     - CRIT
-  Shape: EXPLODE # Types available are "Scan, Teleport and Explode", or use `/rtp info shapes` for a list of shapes
-Invincible: # Amount of time a player should not take damage for
+  Shape: EXPLODE # Các loại có sẵn là "Scan, Teleport và Explode", hoặc sử dụng `/rtp info shapes` để có danh sách các hình dạng
+Invincible: # Thời gian mà người chơi không bị nhận sát thương
   Enabled: true
   Seconds: 5
-Potions: # Use `/rtp info potion_effects` for a list of effects
+Potions: # Sử dụng `/rtp info potion_effects` để có danh sách các hiệu ứng
   Enabled: true
-  Types: # Format <potion_name>:[duration_ticks]:[amplifier] #Default duration=60, amplifier=1
+  Types: # Định dạng <tên_hiệu_ứng>:[thời_gian_ticks]:[cường_độ] #Thời gian mặc định=60, cường độ=1
     - Blindness:60:1
     - Invisibility:60:1

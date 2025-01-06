@@ -1,39 +1,35 @@
-# # These are a list of placeholders for your use, Editting these will do nothing!
-betterrtp_count: Get total amount of rtp's done
-betterrtp_cooldown: Get cooldown in current world
-betterrtp_cooldown_<world_name>: Get cooldown of a specified world
-betterrtp_cooldowntime: Get cooldown time subject to in current world
-betterrtp_cooldowntime_<world_name>: Get cooldown time subject to in specified world
-betterrtp_canrtp: Get the reason or yes output if player can rtp in current world
-betterrtp_canrtp_<world_name>: Get the reason or yes output if player can rtp in set
-  world
-betterrtp_canrtpcooldown: Get if a player can rtp just based off their cooldown
-betterrtp_canrtpcooldown_<world_name>: Get if a player can rtp just based off their
-  cooldown for this world
-betterrtp_canrtpprice: Get if a player can rtp just based off their bank account
-betterrtp_canrtpprice_<world_name>: Get if a player can rtp just based off their bank
-  account for this world
-betterrtp_canrtphunger: Get if a player can rtp just based off their hunger
-betterrtp_canrtphunger_<world_name>: Get if a player can rtp just based off their
-  hunger for this world
-betterrtp_price: Get the price of rtp'ing in current world
-betterrtp_price_<world_name>: Get the price of rtp'ing in specified world
+# # Đây là danh sách các biến thay thế cho bạn, chỉnh sửa chúng sẽ không có tác dụng!
+betterrtp_count: Lấy tổng số lần rtp đã thực hiện
+betterrtp_cooldown: Lấy thời gian hồi chiêu trong thế giới hiện tại
+betterrtp_cooldown_<world_name>: Lấy thời gian hồi chiêu của một thế giới cụ thể
+betterrtp_cooldowntime: Lấy thời gian hồi chiêu trong thế giới hiện tại
+betterrtp_cooldowntime_<world_name>: Lấy thời gian hồi chiêu trong thế giới đã chỉ định
+betterrtp_canrtp: Lấy lý do hoặc đầu ra "có" nếu người chơi có thể rtp trong thế giới hiện tại
+betterrtp_canrtp_<world_name>: Lấy lý do hoặc đầu ra "có" nếu người chơi có thể rtp trong thế giới đã đặt
+betterrtp_canrtpcooldown: Lấy xem người chơi có thể rtp chỉ dựa trên thời gian hồi chiêu của họ không
+betterrtp_canrtpcooldown_<world_name>: Lấy xem người chơi có thể rtp chỉ dựa trên thời gian hồi chiêu cho thế giới này không
+betterrtp_canrtpprice: Lấy xem người chơi có thể rtp chỉ dựa trên tài khoản ngân hàng của họ không
+betterrtp_canrtpprice_<world_name>: Lấy xem người chơi có thể rtp chỉ dựa trên tài khoản ngân hàng cho thế giới này không
+betterrtp_canrtphunger: Lấy xem người chơi có thể rtp chỉ dựa trên mức độ đói của họ không
+betterrtp_canrtphunger_<world_name>: Lấy xem người chơi có thể rtp chỉ dựa trên mức độ đói cho thế giới này không
+betterrtp_price: Lấy giá của việc rtp trong thế giới hiện tại
+betterrtp_price_<world_name>: Lấy giá của việc rtp trong thế giới đã chỉ định
 
-# #Config section for placeholder outputs
+# #Phần cấu hình cho đầu ra biến thay thế
 Config:
   TimeFormat:
-    Days: '{0} Day(s)'
-    Hours: '{0} Hour(s)'
-    Minutes: '{0} Min(s)'
-    Seconds: '{0} Secs'
-    ZeroAll: None
-    Infinite: Inf
+    Days: '{0} Ngày(s)'
+    Hours: '{0} Giờ(s)'
+    Minutes: '{0} Phút(s)'
+    Seconds: '{0} Giây(s)'
+    ZeroAll: Không
+    Infinite: Vô hạn
     Separator:
-      Middle: ', ' # Ex: 1 Days, 5 Hours, 2 mins and 5 secs
-      Last: ' and ' # Ex: 1 Mins and 10 Secs
+      Middle: ', ' # Ví dụ: 1 Ngày, 5 Giờ, 2 phút và 5 giây
+      Last: ' và ' # Ví dụ: 1 Phút và 10 Giây
   CanRTP:
-    Success: '&aYes'
-    NoPermission: '&cNo Permission'
-    Cooldown: '&fCooling Down'
-    Price: '&cNo. &7Reason: &eBankrupt'
-    Hunger: '&cNo. &7Reason: &3Starvation'
+    Success: '&aCó'
+    NoPermission: '&cKhông có quyền'
+    Cooldown: '&fĐang hồi chiêu'
+    Price: '&cKhông. &7Lý do: &eHết tiền'
+    Hunger: '&cKhông. &7Lý do: &3Đói'

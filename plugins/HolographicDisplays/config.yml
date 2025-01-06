@@ -1,7 +1,7 @@
 # 
-# Plugin page: https://dev.bukkit.org/projects/holographic-displays
+# Trang plugin: https://dev.bukkit.org/projects/holographic-displays
 # 
-# Created by filoghost.
+# Được tạo bởi filoghost.
 # 
 
 space-between-lines: 0.02
@@ -21,10 +21,10 @@ bungee:
   pinger:
     enable: false
     timeout: 500
-    offline-motd: '&cOffline, couldn''t get the MOTD'
+    offline-motd: '&cNgoại tuyến, không thể lấy MOTD'
     status:
-      online: '&aOnline'
-      offline: '&cOffline'
+      online: '&aTrực tuyến'
+      offline: '&cNgoại tuyến'
     motd-remove-leading-trailing-spaces: true
     servers:
     - 'hub: 127.0.0.1:25565'

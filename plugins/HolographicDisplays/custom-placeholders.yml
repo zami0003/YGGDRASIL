@@ -8,7 +8,7 @@
 # Another use would be for defining colors, symbols, or text decorations.
 #
 placeholders:
-  '{custom_placeholder}': 'This is a custom placeholder.'
+  '{custom_placeholder}': 'Đây là một placeholder tùy chỉnh.'
   '{primary_color}': '&b'
   '{secondary_color}': '&7'
   '{separator}': '&8&m          '

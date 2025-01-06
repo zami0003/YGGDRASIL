@@ -1,585 +1,533 @@
-# Use a YAML editor like NotepadPlusPlus to edit this file.  
-# After editing, back up your changes before reloading the server in case you made a syntax error.  
-# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+# Sử dụng một trình chỉnh sửa YAML như NotepadPlusPlus để chỉnh sửa tệp này.  
+# Sau khi chỉnh sửa, hãy sao lưu các thay đổi của bạn trước khi tải lại máy chủ để tránh lỗi cú pháp.  
+# Sử dụng dấu đô la ($) cho các mã định dạng, được tài liệu hóa tại đây: http://minecraft.gamepedia.com/Formatting_codes
 
 Messages:
   RespectingClaims:
-    Text: Now respecting claims.
+    Text: Bây giờ đang tôn trọng các yêu cầu.
   IgnoringClaims:
-    Text: Now ignoring claims.
+    Text: Bây giờ đang bỏ qua các yêu cầu.
   SuccessfulAbandon:
-    Text: Claims abandoned.  You now have {0} available claim blocks.
-    Notes: '0: remaining blocks'
+    Text: Các yêu cầu đã bị bỏ. Bạn hiện có {0} khối yêu cầu có sẵn.
+    Notes: '0: khối còn lại'
   RestoreNatureActivate:
-    Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims
-      to stop.
+    Text: Sẵn sàng để khôi phục một số thiên nhiên! Nhấp chuột phải để khôi phục thiên nhiên, và sử dụng /BasicClaims để dừng lại.
   RestoreNatureAggressiveActivate:
-    Text: Aggressive mode activated.  Do NOT use this underneath anything you want
-      to keep!  Right click to aggressively restore nature, and use /BasicClaims to
-      stop.
+    Text: Chế độ tấn công đã được kích hoạt. ĐỪNG sử dụng điều này dưới bất kỳ thứ gì bạn muốn giữ lại! Nhấp chuột phải để khôi phục thiên nhiên một cách mạnh mẽ, và sử dụng /BasicClaims để dừng lại.
   FillModeActive:
-    Text: Fill mode activated with radius {0}.  Right click an area to fill.
-    Notes: '0: fill radius'
+    Text: Chế độ điền đã được kích hoạt với bán kính {0}. Nhấp chuột phải vào một khu vực để điền.
+    Notes: '0: bán kính điền'
   TransferClaimPermission:
-    Text: That command requires the administrative claims permission.
+    Text: Lệnh đó yêu cầu quyền quản lý yêu cầu hành chính.
   TransferClaimMissing:
-    Text: There's no claim here.  Stand in the administrative claim you want to transfer.
+    Text: Không có yêu cầu nào ở đây. Đứng trong yêu cầu hành chính mà bạn muốn chuyển nhượng.
   TransferClaimAdminOnly:
-    Text: Only administrative claims may be transferred to a player.
+    Text: Chỉ các yêu cầu hành chính mới có thể được chuyển nhượng cho một người chơi.
   PlayerNotFound2:
-    Text: No player by that name has logged in recently.
+    Text: Không có người chơi nào với tên đó đã đăng nhập gần đây.
   TransferTopLevel:
-    Text: Only top level claims (not subdivisions) may be transferred.  Stand outside
-      of the subdivision and try again.
+    Text: Chỉ các yêu cầu cấp cao nhất (không phải phân vùng) mới có thể được chuyển nhượng. Đứng bên ngoài phân vùng và thử lại.
   TransferSuccess:
-    Text: Claim transferred.
+    Text: Yêu cầu đã được chuyển nhượng.
   TrustListNoClaim:
-    Text: Stand inside the claim you're curious about.
+    Text: Đứng trong yêu cầu mà bạn đang tò mò.
   ClearPermsOwnerOnly:
-    Text: Only the claim owner can clear all permissions.
+    Text: Chỉ chủ sở hữu yêu cầu mới có thể xóa tất cả quyền.
   UntrustIndividualAllClaims:
-    Text: Revoked {0}'s access to ALL your claims.  To set permissions for a single
-      claim, stand inside it.
-    Notes: '0: untrusted player'
+    Text: Đã thu hồi quyền truy cập của {0} đến TẤT CẢ các yêu cầu của bạn. Để thiết lập quyền cho một yêu cầu duy nhất, hãy đứng bên trong nó.
+    Notes: '0: người chơi không được tin tưởng'
   UntrustEveryoneAllClaims:
-    Text: Cleared permissions in ALL your claims.  To set permissions for a single
-      claim, stand inside it.
+    Text: Đã xóa quyền trong TẤT CẢ các yêu cầu của bạn. Để thiết lập quyền cho một yêu cầu duy nhất, hãy đứng bên trong nó.
   NoPermissionTrust:
-    Text: You don't have {0}'s permission to manage permissions here.
-    Notes: '0: claim owner''s name'
+    Text: Bạn không có quyền của {0} để quản lý quyền ở đây.
+    Notes: '0: tên của chủ sở hữu yêu cầu'
   ClearPermissionsOneClaim:
-    Text: Cleared permissions in this claim.  To set permission for ALL your claims,
-      stand outside them.
+    Text: Đã xóa quyền trong yêu cầu này. Để thiết lập quyền cho TẤT CẢ các yêu cầu của bạn, hãy đứng bên ngoài chúng.
   UntrustIndividualSingleClaim:
-    Text: Revoked {0}'s access to this claim.  To set permissions for a ALL your claims,
-      stand outside them.
-    Notes: '0: untrusted player'
+    Text: Đã thu hồi quyền truy cập của {0} đến yêu cầu này. Để thiết lập quyền cho TẤT CẢ các yêu cầu của bạn, hãy đứng bên ngoài chúng.
+    Notes: '0: người chơi không được tin tưởng'
   OnlySellBlocks:
-    Text: Claim blocks may only be sold, not purchased.
+    Text: Các khối yêu cầu chỉ có thể được bán, không thể mua.
   BlockPurchaseCost:
-    Text: Each claim block costs {0}.  Your balance is {1}.
-    Notes: '0: cost of one block; 1: player''s account balance'
+    Text: Mỗi khối yêu cầu có giá {0}. Số dư của bạn là {1}.
+    Notes: '0: giá của một khối; 1: số dư tài khoản của người chơi'
   ClaimBlockLimit:
-    Text: You've reached your claim block limit.  You can't purchase more.
+    Text: Bạn đã đạt giới hạn khối yêu cầu của mình. Bạn không thể mua thêm.
   InsufficientFunds:
-    Text: You don't have enough money.  You need {0}, but you only have {1}.
-    Notes: '0: total cost; 1: player''s account balance'
+    Text: Bạn không có đủ tiền. Bạn cần {0}, nhưng bạn chỉ có {1}.
+    Notes: '0: tổng chi phí; 1: số dư tài khoản của người chơi'
   MaxBonusReached:
-    Text: Can't purchase {0} more claim blocks. The server has a limit of {1} bonus
-      claim blocks.
-    Notes: '0: block count; 1: bonus claims limit'
+    Text: Không thể mua thêm {0} khối yêu cầu. Máy chủ có giới hạn {1} khối yêu cầu thưởng.
+    Notes: '0: số lượng khối; 1: giới hạn khối thưởng'
   PurchaseConfirmation:
-    Text: Withdrew {0} from your account.  You now have {1} available claim blocks.
-    Notes: '0: total cost; 1: remaining blocks'
+    Text: Đã rút {0} từ tài khoản của bạn. Bạn hiện có {1} khối yêu cầu có sẵn.
+    Notes: '0: tổng chi phí; 1: khối còn lại'
   OnlyPurchaseBlocks:
-    Text: Claim blocks may only be purchased, not sold.
+    Text: Các khối yêu cầu chỉ có thể được mua, không thể bán.
   BlockSaleValue:
-    Text: Each claim block is worth {0}.  You have {1} available for sale.
-    Notes: '0: block value; 1: available blocks'
+    Text: Mỗi khối yêu cầu có giá trị {0}. Bạn có {1} khối có sẵn để bán.
+    Notes: '0: giá trị khối; 1: khối có sẵn'
   NotEnoughBlocksForSale:
-    Text: You don't have that many claim blocks available for sale.
+    Text: Bạn không có nhiều khối yêu cầu có sẵn để bán như vậy.
   BlockSaleConfirmation:
-    Text: Deposited {0} in your account.  You now have {1} available claim blocks.
-    Notes: '0: amount deposited; 1: remaining blocks'
+    Text: Đã gửi {0} vào tài khoản của bạn. Bạn hiện có {1} khối yêu cầu có sẵn.
+    Notes: '0: số tiền đã gửi; 1: khối còn lại'
   AdminClaimsMode:
-    Text: Administrative claims mode active.  Any claims created will be free and
-      editable by other administrators.
+    Text: Chế độ yêu cầu hành chính đang hoạt động. Bất kỳ yêu cầu nào được tạo sẽ miễn phí và có thể chỉnh sửa bởi các quản trị viên khác.
   BasicClaimsMode:
-    Text: Returned to basic claim creation mode.
+    Text: Đã trở lại chế độ tạo yêu cầu cơ bản.
   SubdivisionMode:
-    Text: Subdivision mode.  Use your shovel to create subdivisions in your existing
-      claims.  Use /basicclaims to exit.
+    Text: Chế độ phân vùng. Sử dụng xẻng của bạn để tạo các phân vùng trong các yêu cầu hiện có của bạn. Sử dụng /basicclaims để thoát.
   SubdivisionVideo2:
-    Text: 'Click for Subdivision Help: {0}'
-    Notes: 0:video URL
+    Text: 'Nhấp để xem Trợ giúp Phân vùng: {0}'
+    Notes: 0: URL video
   DeleteClaimMissing:
-    Text: There's no claim here.
+    Text: Không có yêu cầu nào ở đây.
   DeletionSubdivisionWarning:
-    Text: This claim includes subdivisions.  If you're sure you want to delete it,
-      use /DeleteClaim again.
+    Text: Yêu cầu này bao gồm các phân vùng. Nếu bạn chắc chắn muốn xóa nó, hãy sử dụng /DeleteClaim một lần nữa.
   DeleteSuccess:
-    Text: Claim deleted.
+    Text: Yêu cầu đã bị xóa.
   CantDeleteAdminClaim:
-    Text: You don't have permission to delete administrative claims.
+    Text: Bạn không có quyền xóa các yêu cầu hành chính.
   DeleteAllSuccess:
-    Text: Deleted all of {0}'s claims.
-    Notes: '0: owner''s name'
+    Text: Đã xóa tất cả các yêu cầu của {0}.
+    Notes: '0: tên của chủ sở hữu'
   NoDeletePermission:
-    Text: You don't have permission to delete claims.
+    Text: Bạn không có quyền xóa các yêu cầu.
   AllAdminDeleted:
-    Text: Deleted all administrative claims.
+    Text: Đã xóa tất cả các yêu cầu hành chính.
   AdjustBlocksSuccess:
-    Text: 'Adjusted {0}''s bonus claim blocks by {1}.  New total bonus blocks: {2}.'
-    Notes: '0: player; 1: adjustment; 2: new total'
+    Text: 'Đã điều chỉnh {0}''s khối yêu cầu thưởng bởi {1}. Tổng số khối thưởng mới: {2}.'
+    Notes: '0: người chơi; 1: điều chỉnh; 2: tổng mới'
   NotTrappedHere:
-    Text: You can build here.  Save yourself.
+    Text: Bạn có thể xây dựng ở đây. Hãy tự cứu mình.
   RescuePending:
-    Text: If you stay put for 10 seconds, you'll be teleported out.  Please wait.
+    Text: Nếu bạn đứng yên trong 10 giây, bạn sẽ được dịch chuyển ra ngoài. Vui lòng chờ.
   NonSiegeWorld:
-    Text: Siege is disabled here.
+    Text: Cuộc bao vây bị vô hiệu hóa ở đây.
   AlreadySieging:
-    Text: You're already involved in a siege.
+    Text: Bạn đã tham gia vào một cuộc bao vây.
   NotSiegableThere:
-    Text: '{0} isn''t protected there.'
-    Notes: '0: defending player'
+    Text: '{0} không được bảo vệ ở đó.'
+    Notes: '0: người chơi đang bảo vệ'
   SiegeTooFarAway:
-    Text: You're too far away to siege.
+    Text: Bạn quá xa để bao vây.
   NoSiegeYourself:
-    Text: You cannot siege yourself, don't be silly
+    Text: Bạn không thể bao vây chính mình, đừng ngốc nghếch
   NoSiegeDefenseless:
-    Text: That player is defenseless.  Go pick on somebody else.
+    Text: Người chơi đó không có khả năng tự vệ. Hãy đi chọn ai đó khác.
   AlreadyUnderSiegePlayer:
-    Text: '{0} is already under siege.  Join the party!'
-    Notes: '0: defending player'
+    Text: '{0} đã bị bao vây. Tham gia vào bữa tiệc!'
+    Notes: '0: người chơi đang bảo vệ'
   AlreadyUnderSiegeArea:
-    Text: That area is already under siege.  Join the party!
+    Text: Khu vực đó đã bị bao vây. Tham gia vào bữa tiệc!
   NoSiegeAdminClaim:
-    Text: Siege is disabled in this area.
+    Text: Cuộc bao vây bị vô hiệu hóa trong khu vực này.
   SiegeOnCooldown:
-    Text: You're still on siege cooldown for this defender or claim.  Find another
-      victim.
+    Text: Bạn vẫn đang trong thời gian hồi chiêu bao vây cho người bảo vệ hoặc yêu cầu này. Tìm một nạn nhân khác.
   SiegeAlert:
-    Text: You're under siege!  If you log out now, you will die.  You must defeat
-      {0}, wait for him to give up, or escape.
-    Notes: '0: attacker name'
+    Text: Bạn đang bị bao vây! Nếu bạn đăng xuất ngay bây giờ, bạn sẽ chết. Bạn phải đánh bại {0}, chờ anh ta từ bỏ, hoặc trốn thoát.
+    Notes: '0: tên kẻ tấn công'
   SiegeConfirmed:
-    Text: The siege has begun!  If you log out now, you will die.  You must defeat
-      {0}, chase him away, or admit defeat and walk away.
-    Notes: '0: defender name'
+    Text: Cuộc bao vây đã bắt đầu! Nếu bạn đăng xuất ngay bây giờ, bạn sẽ chết. Bạn phải đánh bại {0}, đuổi anh ta đi, hoặc thừa nhận thất bại và rời đi.
+    Notes: '0: tên người bảo vệ'
   AbandonClaimMissing:
-    Text: Stand in the claim you want to delete, or consider /AbandonAllClaims.
+    Text: Đứng trong yêu cầu mà bạn muốn xóa, hoặc xem xét /AbandonAllClaims.
   NotYourClaim:
-    Text: This isn't your claim.
+    Text: Đây không phải là yêu cầu của bạn.
   DeleteTopLevelClaim:
-    Text: To delete a subdivision, stand inside it.  Otherwise, use /AbandonTopLevelClaim
-      to delete this claim and all subdivisions.
+    Text: Để xóa một phân vùng, hãy đứng bên trong nó. Nếu không, hãy sử dụng /AbandonTopLevelClaim để xóa yêu cầu này và tất cả các phân vùng.
   AbandonSuccess:
-    Text: Claim abandoned.  You now have {0} available claim blocks.
-    Notes: '0: remaining claim blocks'
+    Text: Yêu cầu đã bị bỏ. Bạn hiện có {0} khối yêu cầu có sẵn.
+    Notes: '0: khối yêu cầu còn lại'
   ConfirmAbandonAllClaims:
-    Text: Are you sure you want to abandon ALL of your claims?  Please confirm with
-      /AbandonAllClaims confirm
+    Text: Bạn có chắc chắn muốn bỏ TẤT CẢ các yêu cầu của mình không? Vui lòng xác nhận với /AbandonAllClaims confirm
   CantGrantThatPermission:
-    Text: You can't grant a permission you don't have yourself.
+    Text: Bạn không thể cấp quyền mà bạn không có.
   GrantPermissionNoClaim:
-    Text: Stand inside the claim where you want to grant permission.
+    Text: Đứng bên trong yêu cầu mà bạn muốn cấp quyền.
   GrantPermissionConfirmation:
-    Text: Granted {0} permission to {1} {2}.
-    Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
+    Text: Đã cấp {0} quyền cho {1} {2}.
+    Notes: '0: người chơi mục tiêu; 1: mô tả quyền; 2: phạm vi (các yêu cầu đã thay đổi)'
   ManageUniversalPermissionsInstruction:
-    Text: To manage permissions for ALL your claims, stand outside them.
+    Text: Để quản lý quyền cho TẤT CẢ các yêu cầu của bạn, hãy đứng bên ngoài chúng.
   ManageOneClaimPermissionsInstruction:
-    Text: To manage permissions for a specific claim, stand inside it.
+    Text: Để quản lý quyền cho một yêu cầu cụ thể, hãy đứng bên trong nó.
   CollectivePublic:
-    Text: the public
-    Notes: as in 'granted the public permission to...'
+    Text: công chúng
+    Notes: như trong 'cấp quyền cho công chúng để...'
   BuildPermission:
-    Text: build
+    Text: xây dựng
   ContainersPermission:
-    Text: access containers and animals
+    Text: truy cập vào các container và động vật
   AccessPermission:
-    Text: use buttons and levers
+    Text: sử dụng nút và cần gạt
   PermissionsPermission:
-    Text: manage permissions
+    Text: quản lý quyền
   LocationCurrentClaim:
-    Text: in this claim
+    Text: trong yêu cầu này
   LocationAllClaims:
-    Text: in all your claims
+    Text: trong tất cả các yêu cầu của bạn
   PvPImmunityStart:
-    Text: You're protected from attack by other players as long as your inventory
-      is empty.
+    Text: Bạn được bảo vệ khỏi sự tấn công của những người chơi khác miễn là túi đồ của bạn trống.
   SiegeNoDrop:
-    Text: You can't give away items while involved in a siege.
+    Text: Bạn không thể cho đi các vật phẩm trong khi tham gia vào một cuộc bao vây.
   DonateItemsInstruction:
-    Text: To give away the item(s) in your hand, left-click the chest again.
+    Text: Để cho đi vật phẩm trong tay bạn, nhấp chuột trái vào rương một lần nữa.
   ChestFull:
-    Text: This chest is full.
+    Text: Rương này đã đầy.
   DonationSuccess:
-    Text: Item(s) transferred to chest!
+    Text: Vật phẩm đã được chuyển đến rương!
   PlayerTooCloseForFire2:
-    Text: You can't start a fire this close to another player.
+    Text: Bạn không thể bắt lửa gần một người chơi khác như vậy.
   TooDeepToClaim:
-    Text: This chest can't be protected because it's too deep underground.  Consider
-      moving it.
+    Text: Rương này không thể được bảo vệ vì nó quá sâu dưới lòng đất. Hãy xem xét việc di chuyển nó.
   ChestClaimConfirmation:
-    Text: This chest is protected.
+    Text: Rương này đã được bảo vệ.
   AutomaticClaimNotification:
-    Text: This chest and nearby blocks are protected from breakage and theft.
+    Text: Rương này và các khối xung quanh được bảo vệ khỏi việc phá hủy và ăn cắp.
   AutomaticClaimOtherClaimTooClose:
-    Text: Cannot create a claim for your chest, there is another claim too close!
+    Text: Không thể tạo yêu cầu cho rương của bạn, có một yêu cầu khác quá gần!
   UnprotectedChestWarning:
-    Text: This chest is NOT protected.  Consider using a golden shovel to expand an
-      existing claim or to create a new one.
+    Text: Rương này KHÔNG được bảo vệ. Hãy xem xét việc sử dụng một cái xẻng vàng để mở rộng một yêu cầu hiện có hoặc tạo một yêu cầu mới.
   ThatPlayerPvPImmune:
-    Text: You can't injure defenseless players.
+    Text: Bạn không thể làm tổn thương những người chơi không có khả năng tự vệ.
   CantFightWhileImmune:
-    Text: You can't fight someone while you're protected from PvP.
+    Text: Bạn không thể chiến đấu với ai đó trong khi bạn được bảo vệ khỏi PvP.
   NoDamageClaimedEntity:
-    Text: That belongs to {0}.
-    Notes: '0: owner name'
+    Text: Điều đó thuộc về {0}.
+    Notes: '0: tên chủ sở hữu'
   ShovelBasicClaimMode:
-    Text: Shovel returned to basic claims mode.
+    Text: Xẻng đã trở lại chế độ yêu cầu cơ bản.
   RemainingBlocks:
-    Text: You may claim up to {0} more blocks.
-    Notes: '0: remaining blocks'
+    Text: Bạn có thể yêu cầu thêm tối đa {0} khối.
+    Notes: '0: khối còn lại'
   CreativeBasicsVideo2:
-    Text: 'Click for Land Claim Help: {0}'
-    Notes: '{0}: video URL'
+    Text: 'Nhấp để xem Trợ giúp Yêu cầu Đất: {0}'
+    Notes: '{0}: URL video'
   SurvivalBasicsVideo2:
-    Text: 'Click for Land Claim Help: {0}'
-    Notes: '{0}: video URL'
+    Text: 'Nhấp để xem Trợ giúp Yêu cầu Đất: {0}'
+    Notes: '{0}: URL video'
   TrappedChatKeyword:
-    Text: trapped;stuck
-    Notes: When mentioned in chat, players get information about the /trapped command
-      (multiple words can be separated with semi-colons)
+    Text: bị mắc kẹt;đã bị kẹt
+    Notes: Khi được đề cập trong trò chuyện, người chơi sẽ nhận được thông tin về lệnh /trapped (nhiều từ có thể được phân tách bằng dấu chấm phẩy)
   TrappedInstructions:
-    Text: Are you trapped in someone's land claim?  Try the /trapped command.
+    Text: Bạn có bị mắc kẹt trong yêu cầu của ai đó không? Hãy thử lệnh /trapped.
   PvPNoDrop:
-    Text: You can't drop items while in PvP combat.
+    Text: Bạn không thể thả vật phẩm trong khi đang trong cuộc chiến PvP.
   SiegeNoTeleport:
-    Text: You can't teleport out of a besieged area.
+    Text: Bạn không thể dịch chuyển ra khỏi khu vực bị bao vây.
   BesiegedNoTeleport:
-    Text: You can't teleport into a besieged area.
+    Text: Bạn không thể dịch chuyển vào một khu vực bị bao vây.
   SiegeNoContainers:
-    Text: You can't access containers while involved in a siege.
+    Text: Bạn không thể truy cập vào các container trong khi tham gia vào một cuộc bao vây.
   PvPNoContainers:
-    Text: You can't access containers during PvP combat.
+    Text: Bạn không thể truy cập vào các container trong khi đang trong cuộc chiến PvP.
   PvPImmunityEnd:
-    Text: Now you can fight with other players.
+    Text: Bây giờ bạn có thể chiến đấu với những người chơi khác.
   NoBedPermission:
-    Text: '{0} hasn''t given you permission to sleep here.'
-    Notes: '0: claim owner'
+    Text: '{0} chưa cho bạn quyền ngủ ở đây.'
+    Notes: '0: chủ sở hữu yêu cầu'
   NoWildernessBuckets:
-    Text: You may only dump buckets inside your claim(s) or underground.
+    Text: Bạn chỉ có thể đổ xô ở trong yêu cầu của bạn hoặc dưới lòng đất.
   NoLavaNearOtherPlayer:
-    Text: You can't place lava this close to {0}.
-    Notes: '0: nearby player'
+    Text: Bạn không thể đặt lava gần {0}.
+    Notes: '0: người chơi gần đó'
   TooFarAway:
-    Text: That's too far away.
+    Text: Đó là quá xa.
   BlockNotClaimed:
-    Text: No one has claimed this block.
+    Text: Không ai đã yêu cầu khối này.
   BlockClaimed:
-    Text: That block has been claimed by {0}.
-    Notes: '0: claim owner'
+    Text: Khối đó đã được yêu cầu bởi {0}.
+    Notes: '0: chủ sở hữu yêu cầu'
   SiegeNoShovel:
-    Text: You can't use your shovel tool while involved in a siege.
+    Text: Bạn không thể sử dụng công cụ xẻng của mình trong khi tham gia vào một cuộc bao vây.
   RestoreNaturePlayerInChunk:
-    Text: Unable to restore.  {0} is in that chunk.
-    Notes: '0: nearby player'
+    Text: Không thể khôi phục. {0} đang ở trong khối đó.
+    Notes: '0: người chơi gần đó'
   NoCreateClaimPermission:
-    Text: You don't have permission to claim land.
+    Text: Bạn không có quyền yêu cầu đất.
   ResizeNeedMoreBlocks:
-    Text: You don't have enough blocks for this size.  You need {0} more.
-    Notes: '0: how many needed'
+    Text: Bạn không có đủ khối cho kích thước này. Bạn cần thêm {0}.
+    Notes: '0: số lượng cần thiết'
   NoCreativeUnClaim:
-    Text: You can't unclaim this land.  You can only make this claim larger or create
-      additional claims.
+    Text: Bạn không thể bỏ yêu cầu đất này. Bạn chỉ có thể làm cho yêu cầu này lớn hơn hoặc tạo thêm yêu cầu.
   ClaimResizeSuccess:
-    Text: Claim resized.  {0} available claim blocks remaining.
-    Notes: '0: remaining blocks'
+    Text: Yêu cầu đã được thay đổi kích thước. {0} khối yêu cầu còn lại.
+    Notes: '0: khối còn lại'
   ResizeFailOverlap:
-    Text: Can't resize here because it would overlap another nearby claim.
+    Text: Không thể thay đổi kích thước ở đây vì nó sẽ chồng chéo với một yêu cầu gần đó.
   ResizeStart:
-    Text: Resizing claim.  Use your shovel again at the new location for this corner.
+    Text: Đang thay đổi kích thước yêu cầu. Sử dụng xẻng của bạn một lần nữa tại vị trí mới cho góc này.
   ResizeFailOverlapSubdivision:
-    Text: You can't create a subdivision here because it would overlap another subdivision.  Consider
-      /abandonclaim to delete it, or use your shovel at a corner to resize it.
+    Text: Bạn không thể tạo một phân vùng ở đây vì nó sẽ chồng chéo với một phân vùng khác. Hãy xem xét /abandonclaim để xóa nó, hoặc sử dụng xẻng của bạn tại một góc để thay đổi kích thước nó.
   SubdivisionStart:
-    Text: Subdivision corner set!  Use your shovel at the location for the opposite
-      corner of this new subdivision.
+    Text: Góc phân vùng đã được thiết lập! Sử dụng xẻng của bạn tại vị trí cho góc đối diện của phân vùng mới này.
   CreateSubdivisionOverlap:
-    Text: Your selected area overlaps another subdivision.
+    Text: Khu vực bạn đã chọn chồng chéo với một phân vùng khác.
   SubdivisionSuccess:
-    Text: Subdivision created!  Use /trust to share it with friends.
+    Text: Phân vùng đã được tạo! Sử dụng /trust để chia sẻ với bạn bè.
   CreateClaimFailOverlap:
-    Text: You can't create a claim here because it would overlap your other claim.  Use
-      /abandonclaim to delete it, or use your shovel at a corner to resize it.
+    Text: Bạn không thể tạo một yêu cầu ở đây vì nó sẽ chồng chéo với yêu cầu khác của bạn. Sử dụng /abandonclaim để xóa nó, hoặc sử dụng xẻng của bạn tại một góc để thay đổi kích thước nó.
   CreateClaimFailOverlapOtherPlayer:
-    Text: You can't create a claim here because it would overlap {0}'s claim.
-    Notes: '0: other claim owner'
+    Text: Bạn không thể tạo một yêu cầu ở đây vì nó sẽ chồng chéo với yêu cầu của {0}.
+    Notes: '0: chủ sở hữu yêu cầu khác'
   ClaimsDisabledWorld:
-    Text: Land claims are disabled in this world.
+    Text: Các yêu cầu đất bị vô hiệu hóa trong thế giới này.
   ClaimStart:
-    Text: Claim corner set!  Use the shovel again at the opposite corner to claim
-      a rectangle of land.  To cancel, put your shovel away.
+    Text: Góc yêu cầu đã được thiết lập! Sử dụng xẻng một lần nữa tại góc đối diện để yêu cầu một mảnh đất hình chữ nhật. Để hủy, hãy cất xẻng của bạn đi.
   NewClaimTooNarrow:
-    Text: This claim would be too small.  Any claim must be at least {0} blocks wide.
-    Notes: '0: minimum claim width'
+    Text: Yêu cầu này sẽ quá nhỏ. Bất kỳ yêu cầu nào cũng phải rộng ít nhất {0} khối.
+    Notes: '0: chiều rộng yêu cầu tối thiểu'
   CreateClaimInsufficientBlocks:
-    Text: You don't have enough blocks to claim that entire area.  You need {0} more
-      blocks.
-    Notes: '0: additional blocks needed'
+    Text: Bạn không có đủ khối để yêu cầu toàn bộ khu vực đó. Bạn cần thêm {0} khối.
+    Notes: '0: khối bổ sung cần thiết'
   AbandonClaimAdvertisement:
-    Text: To delete another claim and free up some blocks, use /AbandonClaim.
+    Text: Để xóa một yêu cầu khác và giải phóng một số khối, hãy sử dụng /AbandonClaim.
   CreateClaimFailOverlapShort:
-    Text: Your selected area overlaps an existing claim.
+    Text: Khu vực bạn đã chọn chồng chéo với một yêu cầu hiện có.
   CreateClaimSuccess:
-    Text: Claim created!  Use /trust to share it with friends.
+    Text: Yêu cầu đã được tạo! Sử dụng /trust để chia sẻ với bạn bè.
   SiegeWinDoorsOpen:
-    Text: Congratulations!  Buttons and levers are temporarily unlocked.
+    Text: Chúc mừng! Các nút và cần gạt đã được mở khóa tạm thời.
   RescueAbortedMoved:
-    Text: You moved!  Rescue cancelled.
+    Text: Bạn đã di chuyển! Cứu hộ đã bị hủy.
   SiegeDoorsLockedEjection:
-    Text: Looting time is up!  Ejected from the claim.
+    Text: Thời gian cướp bóc đã hết! Bị đuổi khỏi yêu cầu.
   NoModifyDuringSiege:
-    Text: Claims can't be modified while under siege.
+    Text: Các yêu cầu không thể được thay đổi trong khi đang bị bao vây.
   OnlyOwnersModifyClaims:
-    Text: Only {0} can modify this claim.
-    Notes: '0: owner name'
+    Text: Chỉ {0} có thể thay đổi yêu cầu này.
+    Notes: '0: tên chủ sở hữu'
   NoBuildUnderSiege:
-    Text: This claim is under siege by {0}.  No one can build here.
-    Notes: '0: attacker name'
+    Text: Yêu cầu này đang bị bao vây bởi {0}. Không ai có thể xây dựng ở đây.
+    Notes: '0: tên kẻ tấn công'
   NoBuildPvP:
-    Text: You can't build in claims during PvP combat.
+    Text: Bạn không thể xây dựng trong các yêu cầu trong khi đang trong cuộc chiến PvP.
   NoBuildPermission:
-    Text: You don't have {0}'s permission to build here.
-    Notes: '0: owner name'
+    Text: Bạn không có quyền của {0} để xây dựng ở đây.
+    Notes: '0: tên chủ sở hữu'
   NonSiegeMaterial:
-    Text: That material is too tough to break.
+    Text: Vật liệu đó quá cứng để phá vỡ.
   NoOwnerBuildUnderSiege:
-    Text: You can't make changes while under siege.
+    Text: Bạn không thể thực hiện thay đổi trong khi đang bị bao vây.
   NoAccessPermission:
-    Text: You don't have {0}'s permission to use that.
-    Notes: '0: owner name.  access permission controls buttons, levers, and beds'
+    Text: Bạn không có quyền của {0} để sử dụng điều đó.
+    Notes: '0: tên chủ sở hữu. quyền truy cập điều khiển nút, cần gạt và giường'
   NoContainersSiege:
-    Text: This claim is under siege by {0}.  No one can access containers here right
-      now.
-    Notes: '0: attacker name'
+    Text: Yêu cầu này đang bị bao vây bởi {0}. Không ai có thể truy cập vào các container ở đây ngay bây giờ.
+    Notes: '0: tên kẻ tấn công'
   NoContainersPermission:
-    Text: You don't have {0}'s permission to use that.
-    Notes: '0: owner''s name.  containers also include crafting blocks'
+    Text: Bạn không có quyền của {0} để sử dụng điều đó.
+    Notes: '0: tên chủ sở hữu. các container cũng bao gồm các khối chế tạo'
   OwnerNameForAdminClaims:
-    Text: an administrator
-    Notes: as in 'You don't have an administrator's permission to build here.'
+    Text: một quản trị viên
+    Notes: như trong 'Bạn không có quyền của một quản trị viên để xây dựng ở đây.'
   ClaimTooSmallForEntities:
-    Text: This claim isn't big enough for that.  Try enlarging it.
+    Text: Yêu cầu này không đủ lớn cho điều đó. Hãy thử mở rộng nó.
   TooManyEntitiesInClaim:
-    Text: This claim has too many entities already.  Try enlarging the claim or removing
-      some animals, monsters, paintings, or minecarts.
+    Text: Yêu cầu này đã có quá nhiều thực thể. Hãy thử mở rộng yêu cầu hoặc loại bỏ một số động vật, quái vật, tranh vẽ hoặc xe lửa.
   YouHaveNoClaims:
-    Text: You don't have any land claims.
+    Text: Bạn không có yêu cầu đất nào.
   ConfirmFluidRemoval:
-    Text: Abandoning this claim will remove lava inside the claim.  If you're sure,
-      use /AbandonClaim again.
+    Text: Bỏ yêu cầu này sẽ xóa lava bên trong yêu cầu. Nếu bạn chắc chắn, hãy sử dụng /AbandonClaim một lần nữa.
   AutoBanNotify:
-    Text: Auto-banned {0}({1}).  See logs for details.
+    Text: Tự động cấm {0}({1}). Xem nhật ký để biết chi tiết.
   AdjustGroupBlocksSuccess:
-    Text: 'Adjusted bonus claim blocks for players with the {0} permission by {1}.  New
-      total: {2}.'
-    Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
+    Text: 'Đã điều chỉnh khối yêu cầu thưởng cho người chơi có quyền {0} bởi {1}. Tổng số mới: {2}.'
+    Notes: '0: quyền; 1: số lượng điều chỉnh; 2: tổng khối thưởng mới'
   InvalidPermissionID:
-    Text: Please specify a player name, or a permission in [brackets].
+    Text: Vui lòng chỉ định tên người chơi hoặc một quyền trong [dấu ngoặc].
   HowToClaimRegex:
     Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
-    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used
-      to tell players about the demo video when they ask how to claim land.
+    Notes: Đây là một Biểu thức Chính quy Java. Tìm hiểu trước khi chỉnh sửa! Nó được sử dụng để thông báo cho người chơi về video demo khi họ hỏi cách yêu cầu đất.
   NoBuildOutsideClaims:
-    Text: You can't build here unless you claim some land first.
+    Text: Bạn không thể xây dựng ở đây trừ khi bạn yêu cầu một số đất trước.
   PlayerOfflineTime:
-    Text: '  Last login: {0} days ago.'
-    Notes: '0: number of full days since last login'
+    Text: '  Lần đăng nhập cuối: {0} ngày trước.'
+    Notes: '0: số ngày đầy đủ kể từ lần đăng nhập cuối'
   BuildingOutsideClaims:
-    Text: Other players can build here, too.  Consider creating a land claim to protect
-      your work!
+    Text: Những người chơi khác cũng có thể xây dựng ở đây. Hãy xem xét việc tạo một yêu cầu đất để bảo vệ công việc của bạn!
   TrappedWontWorkHere:
-    Text: Sorry, unable to find a safe location to teleport you to.  Contact an admin.
+    Text: Xin lỗi, không thể tìm thấy một vị trí an toàn để dịch chuyển bạn đến. Hãy liên hệ với một quản trị viên.
   CommandBannedInPvP:
-    Text: You can't use that command while in PvP combat.
+    Text: Bạn không thể sử dụng lệnh đó trong khi đang trong cuộc chiến PvP.
   UnclaimCleanupWarning:
-    Text: The land you've unclaimed may be changed by other players or cleaned up
-      by administrators.  If you've built something there you want to keep, you should
-      reclaim it.
+    Text: Đất mà bạn đã bỏ có thể bị thay đổi bởi những người chơi khác hoặc bị các quản trị viên dọn dẹp. Nếu bạn đã xây dựng điều gì đó ở đó mà bạn muốn giữ, bạn nên yêu cầu lại nó.
   BuySellNotConfigured:
-    Text: Sorry, buying and selling claim blocks is disabled.
+    Text: Xin lỗi, việc mua và bán khối yêu cầu đã bị vô hiệu hóa.
   NoTeleportPvPCombat:
-    Text: You can't teleport while fighting another player.
+    Text: Bạn không thể dịch chuyển trong khi đang chiến đấu với một người chơi khác.
   NoTNTDamageAboveSeaLevel:
-    Text: 'Warning: TNT will not destroy blocks above sea level.'
+    Text: 'Cảnh báo: TNT sẽ không phá hủy các khối trên mực nước biển.'
   NoTNTDamageClaims:
-    Text: 'Warning: TNT will not destroy claimed blocks.'
+    Text: 'Cảnh báo: TNT sẽ không phá hủy các khối đã yêu cầu.'
   IgnoreClaimsAdvertisement:
-    Text: To override, use /IgnoreClaims.
+    Text: Để ghi đè, hãy sử dụng /IgnoreClaims.
   NoPermissionForCommand:
-    Text: You don't have permission to do that.
+    Text: Bạn không có quyền để làm điều đó.
   ClaimsListNoPermission:
-    Text: You don't have permission to get information about another player's land
-      claims.
+    Text: Bạn không có quyền để lấy thông tin về các yêu cầu đất của người chơi khác.
   ExplosivesDisabled:
-    Text: This claim is now protected from explosions.  Use /ClaimExplosions again
-      to disable.
+    Text: Yêu cầu này hiện đã được bảo vệ khỏi các vụ nổ. Sử dụng /ClaimExplosions một lần nữa để vô hiệu hóa.
   ExplosivesEnabled:
-    Text: This claim is now vulnerable to explosions.  Use /ClaimExplosions again
-      to re-enable protections.
+    Text: Yêu cầu này hiện đang dễ bị tổn thương trước các vụ nổ. Sử dụng /ClaimExplosions một lần nữa để kích hoạt lại các biện pháp bảo vệ.
   ClaimExplosivesAdvertisement:
-    Text: To allow explosives to destroy blocks in this land claim, use /ClaimExplosions.
+    Text: Để cho phép các vụ nổ phá hủy các khối trong yêu cầu đất này, hãy sử dụng /ClaimExplosions.
   PlayerInPvPSafeZone:
-    Text: That player is in a PvP safe zone.
+    Text: Người chơi đó đang ở trong một khu vực an toàn PvP.
   NoPistonsOutsideClaims:
-    Text: 'Warning: Pistons won''t move blocks outside land claims.'
+    Text: 'Cảnh báo: Các piston sẽ không di chuyển các khối bên ngoài các yêu cầu đất.'
   SoftMuted:
-    Text: Soft-muted {0}.
-    Notes: '0: The changed player''s name.'
+    Text: Đã tạm thời tắt tiếng {0}.
+    Notes: '0: tên của người chơi đã thay đổi.'
   UnSoftMuted:
-    Text: Un-soft-muted {0}.
-    Notes: '0: The changed player''s name.'
+    Text: Đã bỏ tắt tiếng {0}.
+    Notes: '0: tên của người chơi đã thay đổi.'
   DropUnlockAdvertisement:
-    Text: Other players can't pick up your dropped items unless you /UnlockDrops first.
+    Text: Những người chơi khác không thể nhặt các vật phẩm bạn đã thả trừ khi bạn /UnlockDrops trước.
   PickupBlockedExplanation:
-    Text: You can't pick this up unless {0} uses /UnlockDrops.
-    Notes: '0: The item stack''s owner.'
+    Text: Bạn không thể nhặt điều này trừ khi {0} sử dụng /UnlockDrops.
+    Notes: '0: chủ sở hữu của chồng vật phẩm.'
   DropUnlockConfirmation:
-    Text: Unlocked your drops.  Other players may now pick them up (until you die
-      again).
+    Text: Đã mở khóa các vật phẩm của bạn. Những người chơi khác bây giờ có thể nhặt chúng (cho đến khi bạn chết một lần nữa).
   DropUnlockOthersConfirmation:
-    Text: Unlocked {0}'s drops.
-    Notes: '0: The owner of the unlocked drops.'
+    Text: Đã mở khóa các vật phẩm của {0}.
+    Notes: '0: chủ sở hữu của các vật phẩm đã mở khóa.'
   AdvertiseACandACB:
-    Text: You may use /ACB to give yourself more claim blocks, or /AdminClaims to
-      create a free administrative claim.
+    Text: Bạn có thể sử dụng /ACB để tự cấp thêm khối yêu cầu, hoặc /AdminClaims để tạo một yêu cầu hành chính miễn phí.
   AdvertiseAdminClaims:
-    Text: You could create an administrative land claim instead using /AdminClaims,
-      which you'd share with other administrators.
+    Text: Bạn có thể tạo một yêu cầu đất hành chính thay vào đó bằng cách sử dụng /AdminClaims, mà bạn sẽ chia sẻ với các quản trị viên khác.
   AdvertiseACB:
-    Text: You may use /ACB to give yourself more claim blocks.
+    Text: Bạn có thể sử dụng /ACB để tự cấp thêm khối yêu cầu.
   NotYourPet:
-    Text: That belongs to {0} until it's given to you with /GivePet.
-    Notes: '0: owner name'
+    Text: Điều đó thuộc về {0} cho đến khi nó được chuyển cho bạn bằng /GivePet.
+    Notes: '0: tên chủ sở hữu'
   PetGiveawayConfirmation:
-    Text: Pet transferred.
+    Text: Thú cưng đã được chuyển nhượng.
   PetTransferCancellation:
-    Text: Pet giveaway cancelled.
+    Text: Việc chuyển nhượng thú cưng đã bị hủy.
   ReadyToTransferPet:
-    Text: Ready to transfer!  Right-click the pet you'd like to give away, or cancel
-      with /GivePet cancel.
+    Text: Sẵn sàng để chuyển nhượng! Nhấp chuột phải vào thú cưng mà bạn muốn cho đi, hoặc hủy bằng /GivePet cancel.
   AvoidGriefClaimLand:
-    Text: Prevent grief!  If you claim your land, you will be grief-proof.
+    Text: Ngăn chặn sự phá hoại! Nếu bạn yêu cầu đất của mình, bạn sẽ được bảo vệ khỏi sự phá hoại.
   BecomeMayor:
-    Text: Subdivide your land claim and become a mayor!
+    Text: Phân chia yêu cầu đất của bạn và trở thành thị trưởng!
   ClaimCreationFailedOverClaimCountLimit:
-    Text: You've reached your limit on land claims.  Use /AbandonClaim to remove one
-      before creating another.
+    Text: Bạn đã đạt giới hạn yêu cầu đất. Sử dụng /AbandonClaim để xóa một yêu cầu trước khi tạo yêu cầu khác.
   CreateClaimFailOverlapRegion:
-    Text: You can't claim all of this because you're not allowed to build here.
+    Text: Bạn không thể yêu cầu tất cả điều này vì bạn không được phép xây dựng ở đây.
   ResizeFailOverlapRegion:
-    Text: You don't have permission to build there, so you can't claim that area.
+    Text: Bạn không có quyền xây dựng ở đó, vì vậy bạn không thể yêu cầu khu vực đó.
   ShowNearbyClaims:
-    Text: Found {0} land claims.
-    Notes: '0: Number of claims found.'
+    Text: Đã tìm thấy {0} yêu cầu đất.
+    Notes: '0: Số lượng yêu cầu đã tìm thấy.'
   NoChatUntilMove:
-    Text: Sorry, but you have to move a little more before you can chat.  We get lots
-      of spam bots here.  :)
+    Text: Xin lỗi, nhưng bạn phải di chuyển một chút trước khi có thể trò chuyện. Chúng tôi có rất nhiều bot spam ở đây. :)
   SiegeImmune:
-    Text: That player is immune to /siege.
+    Text: Người chơi đó miễn nhiễm với /siege.
   SetClaimBlocksSuccess:
-    Text: Updated accrued claim blocks.
+    Text: Đã cập nhật các khối yêu cầu đã tích lũy.
   IgnoreConfirmation:
-    Text: You're now ignoring chat messages from that player.
+    Text: Bạn hiện đang bỏ qua các tin nhắn trò chuyện từ người chơi đó.
   NotIgnoringPlayer:
-    Text: You're not ignoring that player.
+    Text: Bạn không đang bỏ qua người chơi đó.
   UnIgnoreConfirmation:
-    Text: You're no longer ignoring chat messages from that player.
+    Text: Bạn không còn bỏ qua các tin nhắn trò chuyện từ người chơi đó.
   SeparateConfirmation:
-    Text: Those players will now ignore each other in chat.
+    Text: Những người chơi đó sẽ giờ đây bỏ qua nhau trong trò chuyện.
   UnSeparateConfirmation:
-    Text: Those players will no longer ignore each other in chat.
+    Text: Những người chơi đó sẽ không còn bỏ qua nhau trong trò chuyện.
   NotIgnoringAnyone:
-    Text: You're not ignoring anyone.
+    Text: Bạn không đang bỏ qua ai cả.
   TrustListHeader:
-    Text: 'Explicit permissions here:'
+    Text: 'Các quyền rõ ràng ở đây:'
   Manage:
-    Text: Manage
+    Text: Quản lý
   Build:
-    Text: Build
+    Text: Xây dựng
   Containers:
-    Text: Containers
+    Text: Các container
   Access:
-    Text: Access
+    Text: Truy cập
   HasSubclaimRestriction:
-    Text: This subclaim does not inherit permissions from the parent
+    Text: Phân vùng này không kế thừa quyền từ yêu cầu cha
   StartBlockMath:
-    Text: '{0} blocks from play + {1} bonus = {2} total.'
+    Text: '{0} khối từ trò chơi + {1} thưởng = {2} tổng.'
   ClaimsListHeader:
-    Text: 'Claims:'
+    Text: 'Các yêu cầu:'
   ContinueBlockMath:
-    Text: ' (-{0} blocks)'
+    Text: ' (-{0} khối)'
   EndBlockMath:
-    Text: ' = {0} blocks left to spend'
+    Text: ' = {0} khối còn lại để chi tiêu'
   NoClaimDuringPvP:
-    Text: You can't claim lands during PvP combat.
+    Text: Bạn không thể yêu cầu đất trong khi đang trong cuộc chiến PvP.
   UntrustAllOwnerOnly:
-    Text: Only the claim owner can clear all its permissions.
+    Text: Chỉ chủ sở hữu yêu cầu mới có thể xóa tất cả quyền của nó.
   ManagersDontUntrustManagers:
-    Text: Only the claim owner can demote a manager.
+    Text: Chỉ chủ sở hữu yêu cầu mới có thể hạ bậc một quản lý.
   BookAuthor:
     Text: BigScary
   BookTitle:
-    Text: How to Claim Land
+    Text: Cách yêu cầu đất
   BookIntro:
-    Text: Claim land to protect your stuff!  Click the link above to learn land claims
-      in 3 minutes or less.  :)
+    Text: Yêu cầu đất để bảo vệ đồ của bạn! Nhấp vào liên kết ở trên để tìm hiểu về yêu cầu đất trong 3 phút hoặc ít hơn. :)
   BookDisabledChestClaims:
-    Text: '  On this server, placing a chest will NOT claim land for you.'
+    Text: '  Trên máy chủ này, việc đặt một rương sẽ KHÔNG yêu cầu đất cho bạn.'
   BookUsefulCommands:
-    Text: 'Useful Commands:'
+    Text: 'Các lệnh hữu ích:'
   BookLink:
-    Text: 'Click: {0}'
-    Notes: '{0}: video URL'
+    Text: 'Nhấp: {0}'
+    Notes: '{0}: URL video'
   BookTools:
-    Text: Our claim tools are {0} and {1}.
-    Notes: '0: claim modification tool name; 1:claim information tool name'
+    Text: Các công cụ yêu cầu của chúng tôi là {0} và {1}.
+    Notes: '0: tên công cụ sửa đổi yêu cầu; 1: tên công cụ thông tin yêu cầu'
   ResizeClaimTooNarrow:
-    Text: This new size would be too small.  Claims must be at least {0} blocks wide.
-    Notes: '0: minimum claim width'
+    Text: Kích thước mới này sẽ quá nhỏ. Các yêu cầu phải rộng ít nhất {0} khối.
+    Notes: '0: chiều rộng yêu cầu tối thiểu'
   ResizeClaimInsufficientArea:
-    Text: This claim would be too small.  Any claim must use at least {0} total claim
-      blocks.
-    Notes: '0: minimum claim area'
+    Text: Yêu cầu này sẽ quá nhỏ. Bất kỳ yêu cầu nào cũng phải sử dụng ít nhất {0} tổng số khối yêu cầu.
+    Notes: '0: diện tích yêu cầu tối thiểu'
   NoProfanity:
-    Text: Please moderate your language.
+    Text: Vui lòng điều chỉnh ngôn ngữ của bạn.
   PlayerNotIgnorable:
-    Text: You can't ignore that player.
+    Text: Bạn không thể bỏ qua người chơi đó.
   NoEnoughBlocksForChestClaim:
-    Text: Because you don't have any claim blocks available, no automatic land claim
-      was created for you.  You can use /ClaimsList to monitor your available claim
-      block total.
+    Text: Vì bạn không có khối yêu cầu nào có sẵn, không có yêu cầu đất tự động nào được tạo cho bạn. Bạn có thể sử dụng /ClaimsList để theo dõi tổng số khối yêu cầu có sẵn của bạn.
   IsIgnoringYou:
-    Text: That player is ignoring you.
+    Text: Người chơi đó đang bỏ qua bạn.
   MustHoldModificationToolForThat:
-    Text: You must be holding a golden shovel to do that.
+    Text: Bạn phải cầm một cái xẻng vàng để làm điều đó.
   StandInClaimToResize:
-    Text: Stand inside the land claim you want to resize.
+    Text: Đứng bên trong yêu cầu đất mà bạn muốn thay đổi kích thước.
   ClaimsExtendToSky:
-    Text: Land claims always extend to max build height.
+    Text: Các yêu cầu đất luôn mở rộng đến chiều cao xây dựng tối đa.
   ClaimsAutoExtendDownward:
-    Text: Land claims auto-extend deeper into the ground when you place blocks under
-      them.
+    Text: Các yêu cầu đất tự động mở rộng sâu hơn vào lòng đất khi bạn đặt các khối bên dưới chúng.
   MinimumRadius:
-    Text: Minimum radius is {0}.
-    Notes: '0: minimum radius'
+    Text: Bán kính tối thiểu là {0}.
+    Notes: '0: bán kính tối thiểu'
   RadiusRequiresGoldenShovel:
-    Text: You must be holding a golden shovel when specifying a radius.
+    Text: Bạn phải cầm một cái xẻng vàng khi chỉ định một bán kính.
   ClaimTooSmallForActiveBlocks:
-    Text: This claim isn't big enough to support any active block types (hoppers,
-      spawners, beacons...).  Make the claim bigger first.
+    Text: Yêu cầu này không đủ lớn để hỗ trợ bất kỳ loại khối hoạt động nào (hoppers, spawners, beacons...). Hãy làm cho yêu cầu lớn hơn trước.
   TooManyActiveBlocksInClaim:
-    Text: This claim is at its limit for active block types (hoppers, spawners, beacons...).  Either
-      make it bigger, or remove other active blocks first.
+    Text: Yêu cầu này đã đạt giới hạn cho các loại khối hoạt động (hoppers, spawners, beacons...). Hãy làm cho nó lớn hơn, hoặc loại bỏ các khối hoạt động khác trước.
   ConsoleOnlyCommand:
-    Text: That command may only be executed from the server console.
+    Text: Lệnh đó chỉ có thể được thực hiện từ bảng điều khiển máy chủ.
   WorldNotFound:
-    Text: World not found.
+    Text: Thế giới không được tìm thấy.
   AdjustBlocksAllSuccess:
-    Text: Adjusted all online players' bonus claim blocks by {0}.
-    Notes: '0: adjustment amount'
+    Text: Đã điều chỉnh khối yêu cầu thưởng của tất cả người chơi trực tuyến bởi {0}.
+    Notes: '0: số lượng điều chỉnh'
   TooMuchIpOverlap:
-    Text: Sorry, there are too many players logged in with your IP address.
+    Text: Xin lỗi, có quá nhiều người chơi đang đăng nhập với địa chỉ IP của bạn.
   StandInSubclaim:
-    Text: You need to be standing in a subclaim to restrict it
+    Text: Bạn cần đứng trong một phân vùng để hạn chế nó
   SubclaimRestricted:
-    Text: This subclaim's permissions will no longer inherit from the parent claim
+    Text: Quyền của phân vùng này sẽ không còn kế thừa từ yêu cầu cha
   SubclaimUnrestricted:
-    Text: This subclaim's permissions will now inherit from the parent claim
+    Text: Quyền của phân vùng này sẽ kế thừa từ yêu cầu cha
   NetherPortalTrapDetectionMessage:
-    Text: It seems you might be stuck inside a nether portal. We will rescue you in
-      a few seconds if that is the case!
-    Notes: Sent to player on join, if they left while inside a nether portal.
+    Text: Có vẻ như bạn có thể bị mắc kẹt trong một cổng Nether. Chúng tôi sẽ cứu bạn trong vài giây nếu đó là trường hợp!
+    Notes: Gửi đến người chơi khi tham gia, nếu họ đã rời đi trong khi ở trong một cổng Nether.
