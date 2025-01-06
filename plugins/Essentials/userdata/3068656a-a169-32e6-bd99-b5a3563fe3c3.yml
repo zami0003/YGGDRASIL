@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1735981363719
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1736155045607
+  login: 1736155114653
+money: '0'
+last-account-name: _Zamii
+logoutlocation:
+  world: 51d50f72-3a6e-4f9b-a080-e730e195fd40
+  world-name: world
+  x: -17.262002418102735
+  y: -60.0
+  z: 1.3400687967770741
+  yaw: 177.45068359375
+  pitch: 49.950218200683594
+lastlocation:
+  world: 51d50f72-3a6e-4f9b-a080-e730e195fd40
+  world-name: world
+  x: 0.7642814597363288
+  y: -57.0
+  z: 4.88698680311455
+  yaw: -65.41064453125
+  pitch: 4.200090408325195

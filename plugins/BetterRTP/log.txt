@@ -1,0 +1,20 @@
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Loading Overrides...
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Loading World Types...
+2025-01-06 16:26:50 [INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
+2025-01-06 16:26:50 [INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
+2025-01-06 16:26:50 [INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Loading Defaults...
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Loading Custom Worlds...
+2025-01-06 16:26:50 [INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-01-06 16:26:50 [INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Database COOLDOWN:world configured and loaded!
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Database COOLDOWN:DIM1 configured and loaded!
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Database COOLDOWN:DIM-1 configured and loaded!
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Database COOLDOWN:world2 configured and loaded!
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+2025-01-06 16:26:50 [INFO]: [BetterRTP] Attempting to queue up some more safe locations...
+2025-01-06 16:26:51 [WARNING]: [BetterRTP] Seems like the world `DIM-1` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- DIM-1: NETHER`
+2025-01-06 16:26:57 [WARNING]: [BetterRTP] Seems like the world `world2` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- world2: NETHER`
+2025-01-06 16:26:57 [INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=world2},x=77.5,y=69.0,z=-170.5,pitch=4.2000904,yaw=-65.410645}

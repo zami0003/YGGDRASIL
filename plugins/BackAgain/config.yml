@@ -1,0 +1,4 @@
+savedSpots: {}
+backMessage: Teleporting...
+errorMessage: You have not died yet. Please die before using this command.
+deathMessage: You have died. Use /back to teleport back to this location.

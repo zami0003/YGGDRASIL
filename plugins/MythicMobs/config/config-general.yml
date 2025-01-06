@@ -1,0 +1,4 @@
+Configuration:
+  General:
+    Language: en-us
+    ThreadPoolSize: -1

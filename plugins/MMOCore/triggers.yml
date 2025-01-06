@@ -1,0 +1,69 @@
+# Các bảng kinh nghiệm được tách ra thành nhiều mục độc lập.
+
+example_exp_table:
+
+  # Mỗi mục là hoàn toàn độc lập và có xác suất riêng
+  # để xuất hiện mỗi khi người chơi lên cấp! Khi một
+  # mục rớt, tất cả các trình kích hoạt (triggers) của nó
+  # sẽ được thực thi.
+  first_table_item:
+
+    # Mục này sẽ xuất hiện mỗi 3 lần lên cấp.
+    period: 3
+
+    # Mục này có 80% xác suất xuất hiện mỗi 3 lần lên cấp.
+    chance: 80
+
+    # Mỗi lần không xuất hiện, xác suất trong tương lai sẽ giảm
+    # rủi ro thất bại đi X%. Với tỉ lệ giảm rủi ro thất bại 80%, 
+    # xác suất sẽ là:
+    # - 80%
+    # - 96% (gần như chắc chắn)
+    # - 99.2% (cực kỳ chắc chắn+)
+    # - 99.84% (cực kỳ chắc chắn++)
+    # và cứ tiếp tục mãi mãi...
+    #
+    # Điều này tốt hơn việc tăng cơ hội nhận mỗi lần thất bại
+    # vì nó ngăn cơ hội vượt quá 100%.
+    fail-reduction: 80
+
+    # Những gì xảy ra khi mục này được nhận. Nó có cung cấp kinh nghiệm?
+    # Chạy một lệnh, mở khóa kỹ năng, v.v.? 
+    # Danh sách đầy đủ trình kích hoạt có thể được tìm thấy trên wiki.
+    triggers:
+      - 'exp{amount=20}' # Cung cấp 20 điểm kinh nghiệm.
+      - 'command{format="mmocore admin attribute-points give %player_name% 1"}' # Cấp 1 điểm thuộc tính mỗi lần mục này được nhận.
+
+  # Đây là một mục thứ hai, hoàn toàn độc lập với mục đầu tiên.
+  second_table_item:
+    period: 2
+    triggers:
+      - 'exp{amount=80}' # Cung cấp 80 điểm kinh nghiệm.
+      - 'command{format="broadcast Boy, %player_name% level up twice one of their professions!"}' 
+        # Phát thông báo toàn server khi người chơi lên cấp 2 lần.
+
+# Bảng kinh nghiệm sử dụng bởi class để cung cấp
+# một điểm kỹ năng mỗi lần lên cấp.
+class_exp_table:
+  skill_point:
+    period: 1
+    triggers:
+      - 'command{format="mmocore admin skill-points give %player_name% 1"}'
+      - 'command{format="mmocore admin attribute-points give %player_name% 1"}'
+        # Cấp 1 điểm kỹ năng mỗi lần lên cấp.
+
+second_exp_table:
+
+  # Kinh nghiệm cơ bản mỗi lần lên cấp.
+  some_item:
+    period: 1
+    triggers:
+      - 'exp{amount=100}' # Cung cấp 100 điểm kinh nghiệm.
+      - 'command{format="mmocore admin attribute-points give %player_name% 1"}' # Cấp 1 điểm thuộc tính mỗi lần mục này được nhận.
+
+    # Kinh nghiệm bổ sung mỗi 3 lần lên cấp.
+    some_other_item:
+      period: 3
+      triggers:
+        - 'exp{amount=100}' # Cung cấp thêm 100 điểm kinh nghiệm.
+        - 'command{format="mmocore admin attribute-points give %player_name% 1"}' # Cấp 1 điểm thuộc tính mỗi lần mục này được nhận.
